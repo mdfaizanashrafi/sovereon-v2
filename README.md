@@ -1,4 +1,4 @@
-'''
+```
 Home Page
 │
 ├── HERO SECTION
@@ -20,4 +20,4 @@ Home Page
 │       └── Description
 │
 └── Footer
-'''
+```
