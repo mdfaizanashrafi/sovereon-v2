@@ -1,0 +1,23 @@
+---
+import { navigation } from "../../data/navigation";
+---
+
+<nav>
+  <div class="container">
+    <a href="/" class="logo">
+      Sovereon
+    </a>
+
+    <ul>
+      {
+        navigation.map((item) => (
+          <li>
+            <a href={item.href}>
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>
